@@ -1,0 +1,15 @@
+batch_size: 128
+test_batch_size: 1280
+resize: 224
+lr: 5.0e-4
+num_epochs: 10
+eval_interval: 1
+random_seed: 1234
+num_channels: 1
+num_workers: 4
+gpu: [0, 1, 2, 3]
+LeNet:
+  resize: 28
+  lr: 1.0e-3
+VGG:
+  test_batch_size: 256
